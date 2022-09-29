@@ -16,8 +16,7 @@
     margin-bottom: 3%;
 }
 
-/* Description and people */
-
+/* Description */
 .Contenitore {
     margin: 0 10%;
 }
@@ -26,4 +25,15 @@
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     text-align: center;
+}
+
+/* People */
+.Persona {
+    margin: 3%;
+    background-color: black;
+}
+
+.Pic {
+    width: 7%;
+    height: auto;
 }
