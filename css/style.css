@@ -33,7 +33,7 @@
 .row {
     /* DEBUG */
     background-color: aqua;
-    min-height: 100px;
+    min-width: 100px;
     margin: 0 10%;
 }
 
@@ -42,25 +42,37 @@
     content: "";
     display: table;
     clear: both;
+    margin-bottom: 5%;
 }
 
 .person {
     /* DEBUG */
     float: left;
     width: calc(100% / 3);
-    background-color: blueviolet;
+    background-color: #fff;
     min-height: 50px;
     border: solid 1px #000;
+    padding: 0 5%;
 }
 
 /* People */
 
 .foto-descr {
-    padding: 0 5%;
+    /* DEBUG */
+    margin: 0 5%;
+    background-color: #000;
+    border: solid #000;
+    width: 100%;
+    display: inline-block;
 }
 
 .foto {
     object-fit: cover;
     height: 30%;
     width: 30%;
+    float: left;
+}
+
+.descr {
+    float: left;
 }
