@@ -32,7 +32,7 @@
 
 .row {
     /* DEBUG */
-    background-color: aqua;
+    /* background-color: aqua; */
     min-width: 100px;
     margin: 0 10%;
 }
@@ -51,7 +51,7 @@
     width: calc(100% / 3);
     background-color: #fff;
     min-height: 50px;
-    border: solid 1px #000;
+    /* border: solid 1px #000; */
     padding: 0 5%;
 }
 
@@ -61,7 +61,7 @@
     /* DEBUG */
     margin: 0 5%;
     background-color: #000;
-    border: solid #000;
+    /* border: solid #000; */
     width: 100%;
     display: inline-block;
 }
@@ -73,6 +73,21 @@
     float: left;
 }
 
-.descr {
+.nome {
     float: left;
+    color: #fff;
+    padding-left: 3%;
+    padding-top: 4%;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 115%;
+}
+
+.profess {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.email {
+    color: rgb(43, 143, 224);
+    font-family: 'Nunito', sans-serif;
 }
