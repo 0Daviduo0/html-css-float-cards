@@ -1,0 +1,29 @@
+/* All */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Title */
+#Titolo {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    color: rgb(202, 59, 178);
+    text-align: center;
+    margin: 2%;
+    margin-bottom: 3%;
+}
+
+/* Description and people */
+
+.Contenitore {
+    margin: 0 10%;
+}
+
+#Description {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
