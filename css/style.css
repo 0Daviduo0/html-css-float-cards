@@ -25,15 +25,43 @@
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 5%;
+}
+
+/* Grid Rules */
+
+.row {
+    /* DEBUG */
+    background-color: aqua;
+    min-height: 100px;
+    margin: 0 10%;
+}
+
+    /* Clear Fix */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.person {
+    /* DEBUG */
+    float: left;
+    width: calc(100% / 3);
+    background-color: blueviolet;
+    min-height: 50px;
+    border: solid 1px #000;
+    margin-left: calc(100 / 3);
 }
 
 /* People */
-.Persona {
-    margin: 3%;
-    background-color: black;
+
+.foto-descr {
+    padding: 0 5%;
 }
 
-.Pic {
-    width: 7%;
-    height: auto;
+.foto {
+    object-fit: cover;
+    height: 30%;
+    width: 30%;
 }
